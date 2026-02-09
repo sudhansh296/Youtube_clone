@@ -1,0 +1,15 @@
+       *{
+            margin: 0;
+            background-color:white;
+        }
+        p{
+            font-family: roboto,arial;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        body{
+            padding-top: 75px;
+            padding-left: 100px;
+            background-color: rgb(247, 247, 247);
+            margin-right: 35px;
+        }

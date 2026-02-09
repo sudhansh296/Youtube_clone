@@ -1,0 +1,178 @@
+      .video-title{
+            display: inline-block;
+            font-weight: 500;
+            line-height: 15px;
+            margin-bottom: 12px;
+        
+        }
+
+        .thumbnail-1{
+            width: 100%;
+            border-radius: 18px;
+            
+        }
+     
+
+        .video-info-grid{
+            display: grid;
+            grid-template-columns: 50px 1fr ;
+        }
+        .video-info{
+            padding-left: 5px;
+        }
+
+        .lord{
+            display: grid;
+            grid-template-columns:14fr 1fr;
+        }
+
+        .unsaid-talk-grid{
+            display: grid;
+            grid-template-columns: 14fr 1fr;
+        }
+        
+
+        .profile-picture{
+            width: 100%;
+            border-radius: 50%;
+        }
+        .lord-text{
+            display: inline-block;
+            vertical-align: top;
+            font-size: 15px;
+            font-weight: 500;
+            margin-bottom: 0;
+            margin-left: 3px;
+
+              
+        }
+        
+        
+        .dot-3{
+            display: inline-block;
+            margin-left: 15px;
+        
+        }
+        .dot-3-2{
+            margin-left: 15px;
+            vertical-align: top;
+        }
+        .video-author{
+            color: rgb(96, 96, 96);
+            display: inline-block;
+            width: 200px;
+            margin-bottom: 4px;
+            transition: color ease;
+        }
+        .netflix,.video-author:hover{
+            cursor: pointer;
+            color: red;
+        }
+        
+
+        
+
+        .verified-icon {
+            width: 15px;
+            height: 15px;
+            display: inline-block;
+            align-items: center;
+            vertical-align: bottom;
+            justify-content: center;
+            color:  rgb(96, 96, 96);
+            margin-bottom: 2px;
+        }
+        .netflix-icon{
+            display: inline-block;
+            font-weight: 400;
+            
+        }
+
+         .verified-icon svg {
+             display:inline-block;
+             width: 100%;
+             height: 100%;
+             fill: currentColor;
+       }
+       .lord-text{
+        display: inline-block;
+       }
+       .dot{
+        font-weight: bold;
+        font-size: medium;
+       }
+       
+       .views{
+        color: rgb(96, 96, 96);
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 2px;
+       }
+       .views-1{
+        color: rgb(96, 96, 96);
+        font-weight: 400;
+        margin-top: 1px;
+        margin-bottom: 4px;
+
+       }
+       .views-2{
+        color: rgb(96, 96, 96);
+        font-weight: 400;
+        margin-top: 1px;
+        
+        
+
+       }
+       .netflix-icon{
+        margin: 0px;
+       }
+       .mix-text{
+        display: inline-block;
+        font-size: 15px;
+       }
+       .thumbnail-row{
+        margin-bottom: 10px;
+        position: relative;
+       }
+
+       .video-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        column-gap: 16px;
+        row-gap: 40px ;
+       }
+
+       @media (max-width: 660px){
+        .video-grid{
+            grid-template-columns: 1fr ;
+        }
+       }
+
+       @media(min-width:661px) and (max-width:999px){
+        .video-grid{
+            grid-template-columns: 1fr  1fr ;
+        }
+       }
+
+       @media (min-width: 1000px){
+        .video-grid{
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        
+       }
+
+       .video-time{
+        font-family: roboto,arial;
+        font-size: 12px;
+        font-weight: 500;
+        padding: 4px 2px 4px 2px;
+        border-radius: 2px;
+        background-color: rgba(39, 38, 38,0.8);
+        background-blend-mode: lighten;
+        color: white;
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        
+
+       }

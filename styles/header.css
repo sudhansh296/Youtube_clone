@@ -1,0 +1,246 @@
+.header{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;  
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(228,228,228);
+    z-index: 100;
+
+
+}
+
+.left-section{
+    display: flex;
+    align-items: center;
+}
+
+.middle-section{
+    display: flex;
+    flex: 1;
+    margin-left: 160px;
+    margin-right: 35px;
+    max-width: 650px;
+    flex-direction: row;
+    align-items: center;
+
+}
+.search-bar{
+    flex: 1;
+    height: 39.5px;
+    padding-left: 10px; 
+    font-size: 16px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(192,192,192);
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 3px rgba(0,0,0,0.05);
+    width: 0;
+}
+
+.search-bar::placeholder{
+    font-family: Roboto,arial;
+    font-size:16px;
+
+
+}
+
+.search-button{
+    display: flex;
+    height: 39px;
+    width: 66px;
+    background-color: rgb(240, 240, 240);
+    border-width: 1px;
+    border-style: solid;
+    border-color:  rgb(192,192,192);
+    margin-left: -1px;
+    margin-right: 10px;
+    
+
+}
+
+.search-button,
+.voice-search-button,
+.bell-icon-button{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.search-button .tooltip,
+.voice-search-button .tooltip,
+.bell-icon-button .tooltip{
+    position: absolute;
+    background-color: grey;
+    color: white;
+    padding: 4px 8px 4px 8px;
+    border-radius: 2px;
+    font-size: 12px;
+    bottom: -30px;
+    opacity: 0;
+    transition: opacity 0.15;
+    pointer-events: none;
+    white-space: nowrap;
+
+
+}
+
+.search-button:hover .tooltip,
+.voice-search-button:hover .tooltip,
+.bell-icon-button:hover .tooltip{
+    opacity: 1;
+}
+
+
+.search-icon{
+    height: 28px;
+    align-items: center;
+    margin-top: 3px;
+    margin-left: 15px;
+    background-color: rgb(240, 240, 240);
+
+
+
+}
+.voice-search-button{
+     height: 40px;
+     width: 40px;
+     display: flex;
+     border-radius: 50%;
+     border: none;
+     border-color:  rgb(192,192,192);
+     background-color: rgb(248, 248, 248);
+
+
+}
+
+.voice-search-button-icon{
+    width: 23px;
+    height: 23px;
+    margin-top: 6px;
+    margin-left: 1px;
+    background-color: rgb(248, 248, 248);
+
+
+}
+.right-section{
+    margin-right:70px ;
+    width: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+
+}
+.bell-icon-button{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    position: relative;
+
+    
+}
+.img-bell-icon-button{
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    border: none;
+    border-radius: 50%;
+    margin-top: 3px;
+
+}
+.bell-icon-count{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgb(200, 0, 0);
+    font-family: roboto,arial;
+    font-size: 16px;
+    color: white;
+    padding: 1px 6px 1px 6px;
+    border-radius: 50%;
+}
+.create-button{
+    width: 100px;
+    height: 40px;
+    display: flex;
+    border-radius: 40px;
+    border-style: solid;
+    border-color: rgb(240, 240, 240);
+    border-width: 1px;
+    background-color: rgb(248, 248, 248);
+    
+
+}
+.plus-img{
+    background-color: rgb(248, 248, 248);
+}
+
+.plus{
+    display: flex;
+    height: 21px;
+    font-family: roboto,arial;
+    font-size: 35px;
+    font-style: solid;
+    font-weight: 400;
+    margin-top: 6px;
+    margin-left: 2px;
+    justify-content: space-between;
+    margin-right: 5px;
+    background-color: rgb(248, 248, 248);
+
+}
+.create{
+    font-family: roboto,arial;
+    display: flex;
+    font-weight: 500px;
+    font-size: 17px;
+    margin-top: 5px;
+    background-color: rgb(248, 248, 248);
+
+}
+
+
+.ss{
+    display: flex;
+    width: 10px;
+}
+.img-ss{
+    display: flex;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+
+
+
+.hamburger-menu{
+    width: 18px;
+    margin-left: 24px;
+    margin-right: 24px;
+
+}
+
+.youtube-logo{
+    width: 24px;
+    
+
+}
+.youtube-text{
+    width: 24px;
+    font-weight: 700;
+    font-size:20px;
+    font-family: roboto,arial;
+    margin-left: 2px;
+
+}
